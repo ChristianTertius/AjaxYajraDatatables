@@ -9,6 +9,19 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+
+  <style>
+    /* Ganti warna latar belakang sel-sel dalam tabel */
+    #myTable tbody tr:nth-child(odd) td {
+      background-color: #f2f2f2;
+      /* Warna latar belakang untuk baris ganjil */
+    }
+
+    #myTable tbody tr:nth-child(even) td {
+      background-color: #ffffff;
+      /* Warna latar belakang untuk baris genap */
+    }
+  </style>
 </head>
 
 <body class="bg-light">
